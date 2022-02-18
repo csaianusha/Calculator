@@ -1,0 +1,28 @@
+body{
+    background-color: #F4F8F2;
+}
+.box{
+    position:fixed;
+    top: 40%;
+    left: 50%;
+    width:20em;
+    height:23em;
+    padding: 30px;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -9em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #DEDDDE;
+    -webkit-box-shadow: 0 0 10px #949191;
+    box-shadow: 0 0 10px #949191;
+}
+.calculator{
+    width: 100%;
+}
+.btn-lg{
+    min-width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
+#txt_overalltotal{
+    margin-bottom: 18px;
+}
